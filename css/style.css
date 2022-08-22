@@ -87,8 +87,11 @@ body {
 
 .flexible {
     display: flex;
-    width: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.skill {
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -146,4 +149,22 @@ body {
 
 .make-coffee img {
     padding-top: 60px;
+}
+
+.video {
+    background-color: #1B1B1B;
+}
+
+.half-third {
+    width: 25%;
+    padding: 75px;
+}
+
+.half-third p {
+    color: grey;
+}
+
+.half-third h3 {
+    color: #fff;
+    font-size: 25px;
 }
